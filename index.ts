@@ -5,8 +5,8 @@ interface colorata {
   colore: string;
 }
 interface miaInterfaccia {
-  f1: string,
-  f2: any
+  f1: string;
+  f2: any;
 }
 class miaClasse implements miaInterfaccia, colorata {
   f1: string;
@@ -21,7 +21,6 @@ class miaClasse implements miaInterfaccia, colorata {
   }
 }
 var X = new miaClasse();
-var a = "Hallo";
-X.f1 = a;
+X.f1 = "Hallo";
 X.f2 = 4;
 console.log(X);
