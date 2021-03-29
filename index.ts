@@ -1,9 +1,9 @@
 // Import stylesheets
 import "./style.css";
 
-interface colorata [
+interface colorata {
   colore: string;
-]
+}
 interface miaInterfaccia {
   f1: string,
   f2: any
