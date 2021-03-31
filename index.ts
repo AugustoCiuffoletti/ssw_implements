@@ -1,13 +1,8 @@
 // Import stylesheets
 import "./style.css";
 
-interface colorata {
-  colore: string;
-}
-interface miaInterfaccia {
-  f1: string;
-  f2: any;
-}
+interface colorata { colore: string }
+interface miaInterfaccia { f1: string, f2: any }
 class miaClasse implements miaInterfaccia, colorata {
   f1: string;
   f2: number;
